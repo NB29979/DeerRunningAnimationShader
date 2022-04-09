@@ -38,8 +38,9 @@
             fixed4 c2 = tex2D(_SubTex,  IN.uv_MainTex);
             fixed2 c2_uv = IN.uv_MainTex;
 
-            c2_uv.x +=0.03*(cos(vt)*c2_uv.x-sin(vt)*c2_uv.y);
-            c2_uv.y +=0.03*(sin(vt)*c2_uv.x+cos(vt)*c2_uv.y);
+            fixed2 old_uv = c2_uv;
+            c2_uv.x +=0.03*(cos(vt)*old_uv.x-sin(vt)*old_uv.y);
+            c2_uv.y +=0.03*(sin(vt)*old_uv.x+cos(vt)*old_uv.y);
 
             c2 = tex2D(_SubTex, c2_uv);
 
