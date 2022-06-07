@@ -12,3 +12,7 @@ https://twitter.com/NB29979/status/1513520486516346881
 ## WaitingCursor
 Win.やMac.の砂時計カーソルライクなシェーダです。
 https://twitter.com/NB29979/status/1514592756152213504
+
+## ColorfulLoading
+よくみるLoadingのカラフルなアニメーションのシェーダーです。
+https://twitter.com/NB29979/status/1534167937602314240
