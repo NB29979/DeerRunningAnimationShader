@@ -44,7 +44,7 @@ Shader "Custom/ColorfulLoadingShader"
             const int n        = 10;
             float pt            = TWO_PI / float(n);
             float amp          = 0.35;
-            fixed2 center    = (0.5, 0.5);
+            fixed2 center    = fixed2(0.5, 0.5);
 
             fixed2 toCenter = center - IN.uv_MainTex;
             float angle = -(atan2(toCenter.x, toCenter.y)-_Theta) + _Speed*_Time;
