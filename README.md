@@ -14,5 +14,9 @@ Win.やMac.の砂時計カーソルライクなシェーダです。
 https://twitter.com/NB29979/status/1514592756152213504
 
 ## ColorfulLoading
-よくみるLoadingのカラフルなアニメーションのシェーダーです。
+よくみるLoadingのカラフルなアニメーションのシェーダです。
 https://twitter.com/NB29979/status/1534167937602314240
+
+## WavedOutline
+アウトラインが波打つシェーダです。
+https://twitter.com/NB29979/status/1530858014130941952
